@@ -32,11 +32,11 @@ function NavHeader() {
 
                     <li>
                         <NavLink
-                            to="/reports"
+                            to="/about"
                             className={
                                 ({ isActive }) => `${isActive ? "text-[#FFBE39] underline underline-offset-8" : ""}
                                  hover:underline hover:underline-offset-8`}>
-                            Reports
+                            About us
                         </NavLink>
                     </li>
                 </ul>
